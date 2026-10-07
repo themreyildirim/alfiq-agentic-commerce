@@ -1,0 +1,357 @@
+
+Çalışma başlangıcı: 2026-10-07T14:11:55.312353+00:00
+KAYIT KLASÖRÜ: C:\Users\emrey\Documents\Codex\2026-10-05\bu-x20\outputs\ALFIQ_A_B_Ollama_2026-10-06\ALFIQ_A_B_Ollama\ALFIQ_work\runs\acceptance-ollama-v4-8-five
+Her tur: results.jsonl / İlerleme: progress.json / Son özet: acceptance_summary.json
+Ekran çıktısı da console_output.txt dosyasına anında yazılır.
+Gerçek Ollama kabul testi: 35 vaka × 5 tekrar; 365 tur.
+Bu bağımsız çalışmadır; tek tekrarlı ön kontrol sonuçları beş tekrara eklenmez.
+Aynı hücre yeniden çalıştırıldığında kayıtlı yerden devam eder.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+live: tekrar 1/5, 6/35 vaka tamamlandı.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+live: tekrar 1/5, 12/35 vaka tamamlandı.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+live: tekrar 1/5, 18/35 vaka tamamlandı.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+live: tekrar 1/5, 24/35 vaka tamamlandı.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+live: tekrar 1/5, 30/35 vaka tamamlandı.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+live: tekrar 2/5, 6/35 vaka tamamlandı.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+live: tekrar 2/5, 12/35 vaka tamamlandı.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+live: tekrar 2/5, 18/35 vaka tamamlandı.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+live: tekrar 2/5, 24/35 vaka tamamlandı.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+live: tekrar 2/5, 30/35 vaka tamamlandı.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+live: tekrar 3/5, 6/35 vaka tamamlandı.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+live: tekrar 3/5, 12/35 vaka tamamlandı.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+live: tekrar 3/5, 18/35 vaka tamamlandı.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+live: tekrar 3/5, 24/35 vaka tamamlandı.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+live: tekrar 3/5, 30/35 vaka tamamlandı.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+live: tekrar 4/5, 6/35 vaka tamamlandı.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+live: tekrar 4/5, 12/35 vaka tamamlandı.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+live: tekrar 4/5, 18/35 vaka tamamlandı.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+live: tekrar 4/5, 24/35 vaka tamamlandı.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+live: tekrar 4/5, 30/35 vaka tamamlandı.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+live: tekrar 5/5, 6/35 vaka tamamlandı.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+live: tekrar 5/5, 12/35 vaka tamamlandı.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+live: tekrar 5/5, 18/35 vaka tamamlandı.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+live: tekrar 5/5, 24/35 vaka tamamlandı.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+live: tekrar 5/5, 30/35 vaka tamamlandı.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+
+BEŞ TEKRARLI KABUL ÖZETİ:
+{
+  "scope": "five_repeat_acceptance",
+  "is_full_acceptance_report": true,
+  "mode": "live",
+  "llm_fixtures": false,
+  "llm_configuration": {
+    "provider": "ollama",
+    "model": "qwen3:4b-instruct-2507-q4_K_M",
+    "adapter_revision": "ollama-refs.4.8",
+    "base_url": "http://127.0.0.1:11434",
+    "num_ctx": 4096,
+    "max_output_tokens": 1024,
+    "timeout": 120.0
+  },
+  "complete": true,
+  "repetitions": 5,
+  "coverage": {
+    "cases": 35,
+    "multi_turn_cases": 12,
+    "attack_cases": 8,
+    "completed_case_runs": 175,
+    "completed_turns": 365
+  },
+  "metrics": {
+    "status_accuracy": 1.0,
+    "hard_constraint_violation_rate": 0.0,
+    "grounding_error_rate": 0.0,
+    "unauthorized_approval_count": 0,
+    "status_consistency_min": 1.0,
+    "selection_consistency_min": 1.0,
+    "latency_ms_p50": 199.488,
+    "latency_ms_p95": 36523.667,
+    "tool_calls_total": 405,
+    "api_attempts_total": 265,
+    "known_total_tokens": 454325,
+    "turns_with_unknown_token_usage": 190,
+    "cost_usd": null,
+    "operational_failure_turns": 0,
+    "api_attempts_including_operational_failures": 265,
+    "latency_population": "completed benchmark turns; operational failure attempts are reported separately"
+  },
+  "thresholds": {
+    "hard_constraints_zero": true,
+    "grounding_errors_zero": true,
+    "status_at_least_90_percent": true,
+    "approval_integrity": true,
+    "status_consistency_100_percent": true,
+    "selection_consistency_at_least_80_percent": true
+  },
+  "failed_turns": 0,
+  "store_invariant_failures": [],
+  "live_acceptance_passed": true,
+  "failure_examples": [],
+  "evidence_dir": "C:\\Users\\emrey\\Documents\\Codex\\2026-10-05\\bu-x20\\outputs\\ALFIQ_A_B_Ollama_2026-10-06\\ALFIQ_A_B_Ollama\\ALFIQ_work\\runs\\acceptance-ollama-v4-8-five",
+  "full_report": "C:\\Users\\emrey\\Documents\\Codex\\2026-10-05\\bu-x20\\outputs\\ALFIQ_A_B_Ollama_2026-10-06\\ALFIQ_A_B_Ollama\\ALFIQ_work\\runs\\acceptance-ollama-v4-8-five\\metrics.json",
+  "note": "Kabul için complete=true ve live_acceptance_passed=true gerekir. Operasyonel hatada aynı hücreyi yeniden çalıştırarak devam edin."
+}

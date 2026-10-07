@@ -1,0 +1,31 @@
+{
+  "scope": [
+    "A",
+    "B"
+  ],
+  "package_version": "ab-ollama.4.8",
+  "code_package_ready": true,
+  "live_acceptance_passed": true,
+  "original_inputs_complete": true,
+  "real_model": "qwen3:4b-instruct-2507-q4_K_M",
+  "adapter_revision": "ollama-refs.4.8",
+  "live_benchmark": {
+    "cases": 35,
+    "repetitions": 5,
+    "turns": 365,
+    "failed_turns": 0
+  },
+  "public_outputs": 33,
+  "optional_C_implemented": false,
+  "video_completed": true,
+  "final_submission_ready": null,
+  "pending": [
+    "Include externally recorded 3-5 minute A/B video with ZIP"
+  ],
+  "real_model_calls_during_packaging": 0,
+  "video_completion_source": "User report on 2026-10-08",
+  "video_reviewed": false,
+  "video_in_zip": false,
+  "source_evidence_delivery_ready": true,
+  "readiness_note": "Source/evidence ready. Submit with the externally recorded video; video content not reviewed here."
+}

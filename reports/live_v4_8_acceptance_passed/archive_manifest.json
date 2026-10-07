@@ -1,0 +1,16 @@
+{
+  "scope": "five_repeat_acceptance",
+  "real_llm": true,
+  "adapter_revision": "ollama-refs.4.8",
+  "source": "C:\\Users\\emrey\\Documents\\Codex\\2026-10-05\\bu-x20\\outputs\\ALFIQ_A_B_Ollama_2026-10-06\\ALFIQ_A_B_Ollama\\ALFIQ_work\\runs\\acceptance-ollama-v4-8-five",
+  "source_hashes_verified": true,
+  "turns": 365,
+  "llm_calls": 265,
+  "audit_records": {
+    "ollama_intent_refs.jsonl": 175,
+    "ollama_selection_refs.jsonl": 90
+  },
+  "turns_without_llm_calls": 190,
+  "live_acceptance_passed": true,
+  "remaining": "Original public inputs on v4.8; final packaging and video"
+}

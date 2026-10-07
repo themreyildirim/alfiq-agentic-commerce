@@ -1,0 +1,150 @@
+test_context_limit_before_mutation (test_controls.CheckoutTests.test_context_limit_before_mutation) ... ok
+test_expiration_at_ttl_boundary (test_controls.CheckoutTests.test_expiration_at_ttl_boundary) ... ok
+test_invalid_patch_does_not_replace_catalog (test_controls.CheckoutTests.test_invalid_patch_does_not_replace_catalog) ... ok
+test_no_consent_and_cross_session (test_controls.CheckoutTests.test_no_consent_and_cross_session) ... ok
+test_same_idempotency_key_one_order_and_restart (test_controls.CheckoutTests.test_same_idempotency_key_one_order_and_restart) ... ok
+test_stale_token_after_update (test_controls.CheckoutTests.test_stale_token_after_update) ... ok
+test_unsafe_session_filename (test_controls.CheckoutTests.test_unsafe_session_filename) ... ok
+test_category_aggregate_rule (test_controls.PolicyTests.test_category_aggregate_rule) ... ok
+test_currency_rule (test_controls.PolicyTests.test_currency_rule) ... ok
+test_discount_before_budget (test_controls.PolicyTests.test_discount_before_budget) ... ok
+test_discount_codes_rule (test_controls.PolicyTests.test_discount_codes_rule) ... ok
+test_normalization_and_quarantine (test_controls.PolicyTests.test_normalization_and_quarantine) ... ok
+test_policy_changes_without_code_edits (test_controls.PolicyTests.test_policy_changes_without_code_edits) ... ok
+test_policy_schema_and_duplicate_limits (test_controls.PolicyTests.test_policy_schema_and_duplicate_limits) ... ok
+test_quantity_rule_including_duplicate_lines (test_controls.PolicyTests.test_quantity_rule_including_duplicate_lines) ... ok
+test_ship_rule (test_controls.PolicyTests.test_ship_rule) ... ok
+test_strict_budget (test_controls.PolicyTests.test_strict_budget) ... ok
+test_ttl_rule (test_controls.PolicyTests.test_ttl_rule) ... ok
+test_unknown_stock_and_unresolved_variants (test_controls.PolicyTests.test_unknown_stock_and_unresolved_variants) ... ok
+test_evaluation_pauses_at_quota_and_resumes_same_case (test_controls.TransportTests.test_evaluation_pauses_at_quota_and_resumes_same_case) ... Gemini isteği: deneme 1/3.
+Gemini isteği: deneme 1/3.
+Gemini isteği: deneme 1/3.
+ok
+test_live_mode_requires_opt_in_before_network (test_controls.TransportTests.test_live_mode_requires_opt_in_before_network) ... ok
+test_quota_no_retry_and_key_redaction (test_controls.TransportTests.test_quota_no_retry_and_key_redaction) ... Gemini isteği: deneme 1/3.
+ok
+test_strict_json_and_actual_provider_tokens (test_controls.TransportTests.test_strict_json_and_actual_provider_tokens) ... Gemini isteği: deneme 1/3.
+ok
+test_invalid_diagnostic_ids_fail_before_running (test_diagnostic_evaluation.DiagnosticEvaluationTests.test_invalid_diagnostic_ids_fail_before_running) ... ok
+test_subset_five_repeats_includes_stock_effects_but_cannot_claim_full_acceptance (test_diagnostic_evaluation.DiagnosticEvaluationTests.test_subset_five_repeats_includes_stock_effects_but_cannot_claim_full_acceptance) ... ok
+test_subset_resume_does_not_duplicate_results_and_rejects_another_suite (test_diagnostic_evaluation.DiagnosticEvaluationTests.test_subset_resume_does_not_duplicate_results_and_rejects_another_suite) ... ok
+test_absent_money_country_currency_cannot_be_invented (test_grounding_hints.GroundedHintTests.test_absent_money_country_currency_cannot_be_invented) ... ok
+test_bilingual_keywords_preserve_specific_type_and_exclusions (test_grounding_hints.GroundedHintTests.test_bilingual_keywords_preserve_specific_type_and_exclusions) ... ok
+test_category_label_query_is_removed_and_audited_without_losing_category (test_grounding_hints.GroundedHintTests.test_category_label_query_is_removed_and_audited_without_losing_category) ... Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+ok
+test_confidence_is_a_sort_order_not_an_invented_rating_filter (test_grounding_hints.GroundedHintTests.test_confidence_is_a_sort_order_not_an_invented_rating_filter) ... Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+ok
+test_country_answer_cannot_inherit_an_approval_action_from_history (test_grounding_hints.GroundedHintTests.test_country_answer_cannot_inherit_an_approval_action_from_history) ... ok
+test_country_edit_invalidates_previous_approval_without_requesting_a_new_one (test_grounding_hints.GroundedHintTests.test_country_edit_invalidates_previous_approval_without_requesting_a_new_one) ... Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+ok
+test_embedded_approval_request_binds_action_but_is_not_consent (test_grounding_hints.GroundedHintTests.test_embedded_approval_request_binds_action_but_is_not_consent) ... ok
+test_embedded_request_approval_stock_drift_requires_reconfirmation (test_grounding_hints.GroundedHintTests.test_embedded_request_approval_stock_drift_requires_reconfirmation) ... Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+ok
+test_english_followup_preserves_language_and_budget_across_no_match (test_grounding_hints.GroundedHintTests.test_english_followup_preserves_language_and_budget_across_no_match) ... Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+ok
+test_english_vague_request_needs_a_question_without_fake_budget (test_grounding_hints.GroundedHintTests.test_english_vague_request_needs_a_question_without_fake_budget) ... Ollama isteği: deneme 1/1.
+ok
+test_explicit_currency_amounts_and_symbols_are_preserved (test_grounding_hints.GroundedHintTests.test_explicit_currency_amounts_and_symbols_are_preserved) ... ok
+test_explicit_spa_keyword_search_and_compound_product_query_are_preserved (test_grounding_hints.GroundedHintTests.test_explicit_spa_keyword_search_and_compound_product_query_are_preserved) ... ok
+test_immediate_checkout_cannot_be_downgraded_to_recommendation (test_grounding_hints.GroundedHintTests.test_immediate_checkout_cannot_be_downgraded_to_recommendation) ... ok
+test_invalid_money_is_not_rounded_or_discarded_as_an_unbudgeted_request (test_grounding_hints.GroundedHintTests.test_invalid_money_is_not_rounded_or_discarded_as_an_unbudgeted_request) ... ok
+test_literal_product_id_cannot_be_substituted_in_request_slots (test_grounding_hints.GroundedHintTests.test_literal_product_id_cannot_be_substituted_in_request_slots) ... ok
+test_negated_approval_context_cannot_permit_request_approval (test_grounding_hints.GroundedHintTests.test_negated_approval_context_cannot_permit_request_approval) ... ok
+test_plain_gift_stays_actionable_without_fake_budget (test_grounding_hints.GroundedHintTests.test_plain_gift_stays_actionable_without_fake_budget) ... Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+ok
+test_product_count_after_budget_phrase_is_not_a_money_amount (test_grounding_hints.GroundedHintTests.test_product_count_after_budget_phrase_is_not_a_money_amount) ... ok
+test_shipping_followup_completes_unbudgeted_gift_approval_without_inventing_budget (test_grounding_hints.GroundedHintTests.test_shipping_followup_completes_unbudgeted_gift_approval_without_inventing_budget) ... Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+ok
+test_unbudgeted_coffee_pipeline_stays_unbudgeted_and_uses_catalog_query (test_grounding_hints.GroundedHintTests.test_unbudgeted_coffee_pipeline_stays_unbudgeted_and_uses_catalog_query) ... Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+ok
+test_unbudgeted_out_of_stock_id_has_the_correct_rejection_reason (test_grounding_hints.GroundedHintTests.test_unbudgeted_out_of_stock_id_has_the_correct_rejection_reason) ... Ollama isteği: deneme 1/1.
+ok
+test_unmentioned_followup_values_inherit_without_restated_quantity (test_grounding_hints.GroundedHintTests.test_unmentioned_followup_values_inherit_without_restated_quantity) ... ok
+test_bad_json_duplicate_keys_are_not_accepted (test_ollama.OllamaTests.test_bad_json_duplicate_keys_are_not_accepted) ... Ollama isteği: deneme 1/1.
+ok
+test_json_schema_local_endpoint_and_actual_usage (test_ollama.OllamaTests.test_json_schema_local_endpoint_and_actual_usage) ... Ollama isteği: deneme 1/1.
+ok
+test_local_endpoint_validation_and_explicit_live_guards (test_ollama.OllamaTests.test_local_endpoint_validation_and_explicit_live_guards) ... ok
+test_model_not_installed_returns_typed_error (test_ollama.OllamaTests.test_model_not_installed_returns_typed_error) ... Ollama isteği: deneme 1/1.
+ok
+test_probe_reports_actual_success_and_invalid_output (test_ollama.OllamaTests.test_probe_reports_actual_success_and_invalid_output) ... Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+ok
+test_restart_preserves_ollama_options_without_network (test_ollama.OllamaTests.test_restart_preserves_ollama_options_without_network) ... ok
+test_resume_refuses_a_changed_provider_or_context (test_ollama.OllamaTests.test_resume_refuses_a_changed_provider_or_context) ... Ollama isteği: deneme 1/1.
+ok
+test_timeout_is_one_attempt_and_is_typed (test_ollama.OllamaTests.test_timeout_is_one_attempt_and_is_typed) ... Ollama isteği: deneme 1/1.
+ok
+test_truncated_response_is_not_success (test_ollama.OllamaTests.test_truncated_response_is_not_success) ... Ollama isteği: deneme 1/1.
+ok
+test_full_demo_with_missing_id_in_model_patch_preserves_requested_product (test_ollama_grounding.LocalGroundingTests.test_full_demo_with_missing_id_in_model_patch_preserves_requested_product) ... Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+ok
+test_model_selected_references_render_exact_two_line_claims (test_ollama_grounding.LocalGroundingTests.test_model_selected_references_render_exact_two_line_claims) ... Ollama isteği: deneme 1/1.
+ok
+test_negative_multi_id_and_followup_requests_are_not_bound (test_ollama_grounding.LocalGroundingTests.test_negative_multi_id_and_followup_requests_are_not_bound) ... ok
+test_omitted_literal_product_is_grounded_from_human_message (test_ollama_grounding.LocalGroundingTests.test_omitted_literal_product_is_grounded_from_human_message) ... ok
+test_out_of_range_reference_fails_closed (test_ollama_grounding.LocalGroundingTests.test_out_of_range_reference_fails_closed) ... Ollama isteği: deneme 1/1.
+ok
+test_budget_operator_permissions_distinguish_initial_default_from_followup (test_ollama_structured_intent.StructuredIntentTests.test_budget_operator_permissions_distinguish_initial_default_from_followup) ... ok
+test_category_hints_require_explicit_human_mentions (test_ollama_structured_intent.StructuredIntentTests.test_category_hints_require_explicit_human_mentions) ... ok
+test_compiled_quote_does_not_accept_a_fabricated_numeric_constraint (test_ollama_structured_intent.StructuredIntentTests.test_compiled_quote_does_not_accept_a_fabricated_numeric_constraint) ... ok
+test_followup_slots_compile_updates_and_preserve_inherited_constraints (test_ollama_structured_intent.StructuredIntentTests.test_followup_slots_compile_updates_and_preserve_inherited_constraints) ... Ollama isteği: deneme 1/1.
+ok
+test_generic_gift_followup_preserves_inherited_product_query (test_ollama_structured_intent.StructuredIntentTests.test_generic_gift_followup_preserves_inherited_product_query) ... ok
+test_generic_gift_without_spa_filter_has_a_feasible_grounded_cart (test_ollama_structured_intent.StructuredIntentTests.test_generic_gift_without_spa_filter_has_a_feasible_grounded_cart) ... Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+ok
+test_initial_product_count_requires_positive_unambiguous_phrase (test_ollama_structured_intent.StructuredIntentTests.test_initial_product_count_requires_positive_unambiguous_phrase) ... ok
+test_judge_detects_omitted_product_and_wrong_budget_comparator (test_ollama_structured_intent.StructuredIntentTests.test_judge_detects_omitted_product_and_wrong_budget_comparator) ... Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+ok
+test_literal_product_binding_preserves_rating_evidence (test_ollama_structured_intent.StructuredIntentTests.test_literal_product_binding_preserves_rating_evidence) ... ok
+test_missing_explicit_id_cannot_be_replaced_when_quantity_omitted (test_ollama_structured_intent.StructuredIntentTests.test_missing_explicit_id_cannot_be_replaced_when_quantity_omitted) ... Ollama isteği: deneme 1/1.
+ok
+test_missing_second_product_is_rejected_even_when_provider_ignores_grammar (test_ollama_structured_intent.StructuredIntentTests.test_missing_second_product_is_rejected_even_when_provider_ignores_grammar) ... Ollama isteği: deneme 1/1.
+ok
+test_money_formatting_preserves_amount_and_rejects_rounding (test_ollama_structured_intent.StructuredIntentTests.test_money_formatting_preserves_amount_and_rejects_rounding) ... ok
+test_numeric_filter_permissions_keep_requested_filters_available (test_ollama_structured_intent.StructuredIntentTests.test_numeric_filter_permissions_keep_requested_filters_available) ... ok
+test_observed_gift_query_is_normalized_and_audited_without_losing_filters (test_ollama_structured_intent.StructuredIntentTests.test_observed_gift_query_is_normalized_and_audited_without_losing_filters) ... Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+ok
+test_observed_top_level_rating_error_still_fails_closed (test_ollama_structured_intent.StructuredIntentTests.test_observed_top_level_rating_error_still_fails_closed) ... Ollama isteği: deneme 1/1.
+ok
+test_plain_budget_cannot_be_made_strict_without_human_comparison (test_ollama_structured_intent.StructuredIntentTests.test_plain_budget_cannot_be_made_strict_without_human_comparison) ... ok
+test_product_count_does_not_double_each_groups_unit_quantity (test_ollama_structured_intent.StructuredIntentTests.test_product_count_does_not_double_each_groups_unit_quantity) ... ok
+test_provider_grammar_constrains_slots_and_compiles_real_evidence (test_ollama_structured_intent.StructuredIntentTests.test_provider_grammar_constrains_slots_and_compiles_real_evidence) ... Ollama isteği: deneme 1/1.
+ok
+test_purpose_query_cannot_silently_drop_an_explicit_product_type (test_ollama_structured_intent.StructuredIntentTests.test_purpose_query_cannot_silently_drop_an_explicit_product_type) ... ok
+test_purpose_query_normalization_preserves_product_and_literal_searches (test_ollama_structured_intent.StructuredIntentTests.test_purpose_query_normalization_preserves_product_and_literal_searches) ... ok
+test_review_followup_updates_only_review_count_and_preserves_other_filters (test_ollama_structured_intent.StructuredIntentTests.test_review_followup_updates_only_review_count_and_preserves_other_filters) ... ok
+test_selected_pair_gets_exactly_its_own_grounded_reasons (test_ollama_structured_intent.StructuredIntentTests.test_selected_pair_gets_exactly_its_own_grounded_reasons) ... Ollama isteği: deneme 1/1.
+ok
+test_spa_pair_retains_two_groups_and_selects_two_distinct_products (test_ollama_structured_intent.StructuredIntentTests.test_spa_pair_retains_two_groups_and_selects_two_distinct_products) ... Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+ok
+test_strict_budget_bound_is_grounded_in_matching_human_amount (test_ollama_structured_intent.StructuredIntentTests.test_strict_budget_bound_is_grounded_in_matching_human_amount) ... ok
+test_unrequested_rating_and_review_defaults_fail_closed_even_if_grammar_is_ignored (test_ollama_structured_intent.StructuredIntentTests.test_unrequested_rating_and_review_defaults_fail_closed_even_if_grammar_is_ignored) ... Ollama isteği: deneme 1/1.
+ok
+test_unrequested_spa_category_is_rejected_if_provider_ignores_grammar (test_ollama_structured_intent.StructuredIntentTests.test_unrequested_spa_category_is_rejected_if_provider_ignores_grammar) ... Ollama isteği: deneme 1/1.
+ok
+test_increment_preserves_constraints_and_hydrates_matched_fields (test_submission.SubmissionTests.test_increment_preserves_constraints_and_hydrates_matched_fields) ... ok
+test_original_inputs_capture_all_outputs_and_resume (test_submission.SubmissionTests.test_original_inputs_capture_all_outputs_and_resume) ... ok
+test_public_live_requires_opt_in (test_submission.SubmissionTests.test_public_live_requires_opt_in) ... ok
+
+----------------------------------------------------------------------
+Ran 91 tests in 33.297s
+
+OK

@@ -1,0 +1,12 @@
+{
+  "notebook_code_cells_compile": true,
+  "standalone_notebook_installs_v4_8": true,
+  "installed_source_matches_live_acceptance_sha256": true,
+  "recorded_acceptance_turns_schema_valid": 365,
+  "recorded_public_outputs_schema_valid": 33,
+  "fixture_demo_turns_verified": 8,
+  "real_llm_calls_in_packaging": 0,
+  "pdf_pages": 2,
+  "pdf_visual_review_passed": true,
+  "video_recorded": false
+}

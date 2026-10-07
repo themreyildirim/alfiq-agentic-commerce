@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+runtime/
+runs/
+ALFIQ_work_v4_8/
+
+.env
+.env.*
+*.mp4
+*.zip

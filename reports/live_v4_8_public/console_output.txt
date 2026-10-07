@@ -1,0 +1,80 @@
+PDF orijinal A/B girdileri: 18 tek sorgu + S1/S2/S3/S5/S6; toplam 33 çıktı.
+Her vaka bir kez; beş tekrarlı kabul testi yeniden çalıştırılmıyor.
+Eksik ülke/varyant uydurulmaz; açıklama isteyen ve reddedilen sonuçlar korunur.
+KAYIT KLASÖRÜ: C:\Users\emrey\Documents\Codex\2026-10-05\bu-x20\outputs\ALFIQ_A_B_Ollama_2026-10-06\ALFIQ_A_B_Ollama\ALFIQ_work\runs\public-ollama-v4-8
+Her çıktı JSON, ilerleme progress.json, son rapor summary.json olarak kaydedilir.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+
+ORİJİNAL A/B GİRDİLERİ ÖZETİ:
+{
+  "llm_configuration": {
+    "provider": "ollama",
+    "model": "qwen3:4b-instruct-2507-q4_K_M",
+    "adapter_revision": "ollama-refs.4.8",
+    "base_url": "http://127.0.0.1:11434",
+    "num_ctx": 4096,
+    "max_output_tokens": 1024,
+    "timeout": 120.0
+  },
+  "mode": "live",
+  "execution_complete": true,
+  "llm_fixtures": false,
+  "original_single_queries": 18,
+  "original_AB_scenarios": [
+    "S1",
+    "S2",
+    "S3",
+    "S5",
+    "S6"
+  ],
+  "completed_cases": 23,
+  "outputs": 33,
+  "excluded_scenarios": [
+    {
+      "id": "S4",
+      "layer": "C",
+      "status": "not_implemented_optional_layer",
+      "description": "Buyer agent: ALF-0017 x 2; a new cart with ALF-0017 x 2 + ALF-0039 x 1; expired mandate; max_total tampered without re-signing.",
+      "reason": "MCP and signed mandate validation belong to optional C, outside this A/B package."
+    }
+  ],
+  "acceptance_metrics": "Not calculated here; use alfiq_b.evaluate for the 38/35-case five-repeat benchmark.",
+  "notes": [
+    "No shipping country or exact variant is invented to force approval.",
+    "Original S2/S5 omit shipping country; clarification/fail-closed results are retained.",
+    "Positive drift/idempotency/terminal-state controls with explicit country are in separate benchmark cases.",
+    "S5 structured calls are checkout-result.v2 tool outputs; human messages are agent-turn.v2 outputs."
+  ]
+}

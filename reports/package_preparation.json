@@ -1,0 +1,7 @@
+{
+  "source_hashes_match_accepted_run": true,
+  "real_llm_calls_during_packaging": 0,
+  "notebook_embedded_sha256": "18e077db5fa7707ca8d3d1deec4b323e4ddf73646dec66d85cf5dce8e0d12f4d",
+  "notebook_code_cells_compile": true,
+  "video_pending": true
+}

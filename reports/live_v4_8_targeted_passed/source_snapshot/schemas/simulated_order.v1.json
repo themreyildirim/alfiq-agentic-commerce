@@ -1,0 +1,223 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:alfiq:schema:simulated-order:v1",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": "order.v1"
+    },
+    "order_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "cart_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "cart_version": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "session_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "catalog_version": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "policy_version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "quote": {
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "$id": "urn:alfiq:schema:quote-output:v1",
+      "type": "object",
+      "properties": {
+        "currency": {
+          "const": "USD"
+        },
+        "catalog_version": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "policy_version": {
+          "type": "string",
+          "minLength": 1
+        },
+        "lines": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$schema": "https://json-schema.org/draft/2020-12/schema",
+            "$id": "urn:alfiq:schema:quote-line-output:v1",
+            "type": "object",
+            "properties": {
+              "product_id": {
+                "type": "string",
+                "minLength": 1
+              },
+              "quantity": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "catalog_price": {
+                "type": "string",
+                "pattern": "^(?:0\\.(?:0[1-9]|[1-9]\\d)|[1-9]\\d*\\.\\d{2})$"
+              },
+              "price_max": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "pattern": "^(?:0\\.(?:0[1-9]|[1-9]\\d)|[1-9]\\d*\\.\\d{2})$"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "unit_price_used": {
+                "type": "string",
+                "pattern": "^(?:0\\.(?:0[1-9]|[1-9]\\d)|[1-9]\\d*\\.\\d{2})$"
+              },
+              "amount_kind": {
+                "enum": [
+                  "upper_bound",
+                  "catalog_price"
+                ]
+              },
+              "gross": {
+                "type": "string",
+                "pattern": "^(?:0|[1-9]\\d*)\\.\\d{2}$"
+              },
+              "discount": {
+                "type": "string",
+                "pattern": "^(?:0|[1-9]\\d*)\\.\\d{2}$"
+              },
+              "net": {
+                "type": "string",
+                "pattern": "^(?:0|[1-9]\\d*)\\.\\d{2}$"
+              },
+              "discount_percent": {
+                "type": "string",
+                "pattern": "^\\d+(?:\\.\\d+)?$"
+              }
+            },
+            "required": [
+              "product_id",
+              "quantity",
+              "catalog_price",
+              "price_max",
+              "unit_price_used",
+              "amount_kind",
+              "gross",
+              "discount",
+              "net",
+              "discount_percent"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "gross_total": {
+          "type": "string",
+          "pattern": "^(?:0|[1-9]\\d*)\\.\\d{2}$"
+        },
+        "discount_total": {
+          "type": "string",
+          "pattern": "^(?:0|[1-9]\\d*)\\.\\d{2}$"
+        },
+        "net_total": {
+          "type": "string",
+          "pattern": "^(?:0|[1-9]\\d*)\\.\\d{2}$"
+        },
+        "budget": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^(?:0|[1-9]\\d*)\\.\\d{2}$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "budget_operator": {
+          "enum": [
+            "lt",
+            "lte"
+          ]
+        },
+        "remaining_budget": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^(?:0|[1-9]\\d*)\\.\\d{2}$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "ship_to": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^[A-Z]{2}$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "shipping_country_verified": {
+          "type": "boolean"
+        },
+        "pricing_complete": {
+          "type": "boolean"
+        },
+        "quote_ttl_seconds": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "total_scope": {
+          "const": "product_subtotal"
+        }
+      },
+      "required": [
+        "currency",
+        "catalog_version",
+        "policy_version",
+        "lines",
+        "gross_total",
+        "discount_total",
+        "net_total",
+        "budget",
+        "budget_operator",
+        "remaining_budget",
+        "ship_to",
+        "shipping_country_verified",
+        "pricing_complete",
+        "quote_ttl_seconds",
+        "total_scope"
+      ],
+      "additionalProperties": false
+    },
+    "created_at": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "required": [
+    "schema_version",
+    "order_id",
+    "cart_id",
+    "cart_version",
+    "session_id",
+    "catalog_version",
+    "policy_version",
+    "quote",
+    "created_at"
+  ],
+  "additionalProperties": false
+}

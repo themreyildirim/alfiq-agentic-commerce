@@ -1,0 +1,12 @@
+{
+  "policy_version": "2026-10-01",
+  "currency": "USD",
+  "max_quantity_per_line": 25,
+  "bulk_discount": { "min_quantity_same_item": 10, "percent": 10 },
+  "category_limits": [
+    { "category": "Copper Bullion Bars", "max_units_per_order": 5 }
+  ],
+  "ship_to_allowed": ["US", "CA", "GB", "DE", "FR", "NL", "TR", "AE", "AU", "JP"],
+  "quote_ttl_seconds": 900,
+  "discount_codes": []
+}

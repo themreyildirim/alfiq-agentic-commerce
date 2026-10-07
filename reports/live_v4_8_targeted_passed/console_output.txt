@@ -1,0 +1,108 @@
+
+Çalışma başlangıcı: 2026-10-07T13:58:56.189048+00:00
+KAYIT KLASÖRÜ: C:\Users\emrey\Documents\Codex\2026-10-05\bu-x20\outputs\ALFIQ_A_B_Ollama_2026-10-06\ALFIQ_A_B_Ollama\ALFIQ_work\runs\targeted-ollama-v4-8-five
+Her tur: results.jsonl / İlerleme: progress.json / Son özet: targeted_summary.json
+Ekran çıktısı da console_output.txt dosyasına anında yazılır.
+Gerçek Ollama hedefli kontrol: 3 vaka × 5 tekrar; 50 tur.
+Bu üç vakalık tanıdır; 35 vakalık tam kabul testi yerine geçmez.
+Aynı hücre yeniden çalıştırıldığında kayıtlı yerden devam eder.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+Ollama isteği: deneme 1/1.
+
+HEDEFLİ KONTROL ÖZETİ:
+{
+  "scope": "diagnostic_subset",
+  "is_full_acceptance_report": false,
+  "mode": "live",
+  "llm_fixtures": false,
+  "llm_configuration": {
+    "provider": "ollama",
+    "model": "qwen3:4b-instruct-2507-q4_K_M",
+    "adapter_revision": "ollama-refs.4.8",
+    "base_url": "http://127.0.0.1:11434",
+    "num_ctx": 4096,
+    "max_output_tokens": 1024,
+    "timeout": 120.0
+  },
+  "complete": true,
+  "repetitions": 5,
+  "coverage": {
+    "cases": 3,
+    "multi_turn_cases": 2,
+    "attack_cases": 0,
+    "completed_case_runs": 15,
+    "completed_turns": 50
+  },
+  "metrics": {
+    "status_accuracy": 1.0,
+    "hard_constraint_violation_rate": 0.0,
+    "grounding_error_rate": 0.0,
+    "unauthorized_approval_count": 0,
+    "status_consistency_min": 1.0,
+    "selection_consistency_min": 1.0,
+    "latency_ms_p50": 133.16,
+    "latency_ms_p95": 37534.026,
+    "tool_calls_total": 70,
+    "api_attempts_total": 35,
+    "known_total_tokens": 59420,
+    "turns_with_unknown_token_usage": 30,
+    "cost_usd": null,
+    "operational_failure_turns": 0,
+    "api_attempts_including_operational_failures": 35,
+    "latency_population": "completed benchmark turns; operational failure attempts are reported separately"
+  },
+  "thresholds": {
+    "hard_constraints_zero": true,
+    "grounding_errors_zero": true,
+    "status_at_least_90_percent": true,
+    "approval_integrity": true,
+    "status_consistency_100_percent": true,
+    "selection_consistency_at_least_80_percent": true
+  },
+  "failed_turns": 0,
+  "store_invariant_failures": [],
+  "diagnostic_passed": true,
+  "live_acceptance_passed": false,
+  "case_ids": [
+    "P02-spa-pair",
+    "M11-stock-drift",
+    "M10-shipping-clarification"
+  ],
+  "failure_examples": [],
+  "evidence_dir": "C:\\Users\\emrey\\Documents\\Codex\\2026-10-05\\bu-x20\\outputs\\ALFIQ_A_B_Ollama_2026-10-06\\ALFIQ_A_B_Ollama\\ALFIQ_work\\runs\\targeted-ollama-v4-8-five",
+  "full_report": "C:\\Users\\emrey\\Documents\\Codex\\2026-10-05\\bu-x20\\outputs\\ALFIQ_A_B_Ollama_2026-10-06\\ALFIQ_A_B_Ollama\\ALFIQ_work\\runs\\targeted-ollama-v4-8-five\\metrics.json",
+  "note": "Tanı için complete=true ve diagnostic_passed=true gerekir; tam kabul raporu değildir. Operasyonel hatada aynı hücreyi yeniden çalıştırarak devam edin."
+}

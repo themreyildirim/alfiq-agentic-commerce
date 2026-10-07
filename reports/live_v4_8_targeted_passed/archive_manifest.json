@@ -1,0 +1,14 @@
+{
+  "scope": "diagnostic_subset",
+  "real_llm": true,
+  "adapter_revision": "ollama-refs.4.8",
+  "source": "C:\\Users\\emrey\\Documents\\Codex\\2026-10-05\\bu-x20\\outputs\\ALFIQ_A_B_Ollama_2026-10-06\\ALFIQ_A_B_Ollama\\ALFIQ_work\\runs\\targeted-ollama-v4-8-five",
+  "source_hashes_verified": true,
+  "turns": 50,
+  "llm_calls": 35,
+  "audit_records": {
+    "ollama_intent_refs.jsonl": 20,
+    "ollama_selection_refs.jsonl": 15
+  },
+  "full_acceptance_pending": true
+}

@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:alfiq:schema:intent-extraction-wire:v1",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "enum": [
+        "intent-extraction-wire.v1"
+      ]
+    },
+    "patch_json": {
+      "type": "string",
+      "minLength": 2,
+      "maxLength": 20000
+    },
+    "evidence": {
+      "type": "array",
+      "maxItems": 60,
+      "items": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "$id": "urn:alfiq:schema:intent-evidence:v1",
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string",
+            "minLength": 1
+          },
+          "quote": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 1000
+          }
+        },
+        "required": [
+          "path",
+          "quote"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "schema_version",
+    "patch_json",
+    "evidence"
+  ],
+  "additionalProperties": false
+}

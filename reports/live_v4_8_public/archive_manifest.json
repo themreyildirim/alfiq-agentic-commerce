@@ -1,0 +1,13 @@
+{
+  "real_llm": true,
+  "adapter_revision": "ollama-refs.4.8",
+  "source": "C:\\Users\\emrey\\Documents\\Codex\\2026-10-05\\bu-x20\\outputs\\ALFIQ_A_B_Ollama_2026-10-06\\ALFIQ_A_B_Ollama\\ALFIQ_work\\runs\\public-ollama-v4-8",
+  "source_hashes_verified": true,
+  "outputs": 33,
+  "llm_calls": 33,
+  "audit_records": {
+    "ollama_intent_refs.jsonl": 24,
+    "ollama_selection_refs.jsonl": 9
+  },
+  "note": "Trace capture, not a second acceptance benchmark. Clarification and fail-closed results retained; optional S4 excluded."
+}
